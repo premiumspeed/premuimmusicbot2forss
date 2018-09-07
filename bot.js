@@ -198,7 +198,7 @@ function play(guild, song) {
 
 const adminprefix = "#vip";
 client.on('message', message => {
-	var devs = ['314845344313901057'];
+	var devs = ['349616310734553088'];
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
     
