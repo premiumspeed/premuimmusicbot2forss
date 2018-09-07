@@ -246,7 +246,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 client.on("message", message => {
   if (message.content === "#viphelp") {
 	  if (message.author.id !== '314845344313901057') return message.reply('**هاذا الامر فقط لصاحب السيرفر فقط**')
- if(!message.author.id === '483092158786568203') return;
+ if(!message.author.id === '314845344313901057') return;
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
